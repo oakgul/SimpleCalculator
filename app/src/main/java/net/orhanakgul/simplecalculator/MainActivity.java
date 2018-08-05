@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
             int resultInt = a + b;
 
-            result.setText("Result : " + resultInt);
+            result.setText("SONUÇ : " + resultInt);
         }
 
         // ÇIKAR
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
             int resultInt = a - b;
 
-            result.setText("Result : " + resultInt);
+            result.setText("SONUÇ : " + resultInt);
         }
 
         // ÇARP
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
             int resultInt = a * b;
 
-            result.setText("Result : " + resultInt);
+            result.setText("SONUÇ : " + resultInt);
         }
 
         // BÖL
@@ -61,6 +61,6 @@ public class MainActivity extends AppCompatActivity {
 
             int resultInt = a / b;
 
-            result.setText("Result : " + resultInt);
+            result.setText("SONUÇ : " + resultInt);
         }
 }
